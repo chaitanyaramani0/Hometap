@@ -1,0 +1,24 @@
+In Next step 
+
+we can private all intermidiate api. right now it is open and does not require 
+the authentication.
+
+Since Homecenery is restricated to use and it charges(i assume). we can stored
+the result to our database for future use and avoid the api call to homecenery.
+it has two benefines 
+
+1) we can aviod unneccary charges for same api call.
+2) we also can reduce a letency and make our app faster.
+
+As requirments grows we can also release the api version right now its v1
+
+All the Security like SSL certificate, authentication, authoration which 
+is not related to business logic we can configure all those component using API gateway
+that way our business logic and extra component will be easy to maintain. 
+
+finally we also can document out api with good example and tutorial which is Eventually helpful 
+who is joinin a team and support team or any another team member who is not involving in 
+development process. 
+
+
+

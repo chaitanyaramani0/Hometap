@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from property_detail.views import get_address
+from property_detail.views import septic_check
+from property_detail.api import api_septic_check
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', get_address,name='get_property_data'),
+    path('', septic_check,name='get_property_data'),
+    path('api/v1', api_septic_check,name='api'),
 ]
