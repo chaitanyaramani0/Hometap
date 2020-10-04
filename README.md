@@ -50,4 +50,16 @@ to get excet result below are some example of zipcode.
 you can pass any zipcode but to get precise result choose one of above any other zipcode will match 
 mock api data base on matching algorithms and give you closed result whoever match the above zipcode closest.
 
+# Using Django REST framework
+septic check also use django rest framework this is basically another way to check the setic system.
+
+## route to below endpoint you pass any zipcode as query param 
+### for eg ?zipcode=98243
+```bash
+http://localhost:8000/api/v1?zipcode=111111 
+```
+### or 
+```bash
+http://127.0.0.1:8000/api/v1?zipcode=111111
+```
  
