@@ -46,10 +46,14 @@ to get excet result below are some example of zipcode.
 32145 - municiaple
 51023 -strorm 
 ```
-## Expansion 
+## Explanation 
 you can pass any zipcode but to get precise result choose one of above any other zipcode will match 
 mock api data base on matching algorithms and give you closed result whoever match the above zipcode closest.
 
+# Run Test case
+```bash
+python manage.py test
+```
 
 # Using Django REST framework
 septic check also use django rest framework this is basically another way to check the setic system.
